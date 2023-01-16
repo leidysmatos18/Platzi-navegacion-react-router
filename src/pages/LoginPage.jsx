@@ -4,7 +4,7 @@ import { useAuth } from "../hooks/auth";
 
 const LoginPage = () => {
   const auth = useAuth();
-  const [username, setUsername] = useState();
+  const [username, setUsername] = useState("");
 
   const login = (e) => {
     e.preventDefault();
